@@ -75,3 +75,9 @@ margin-right: -10px;
 #subscribeku .closesub:hover {
 cursor: pointer;
 }
+
+@media only screen and (max-width:480px){
+	#subscribeku input[name="email"] {
+		font-size: 20px;
+	}
+}
